@@ -40,6 +40,6 @@ function pingURL() {
     
     // Sends the request and observes the response
     $.ajax(settings).done(function (response) {
-      console.log(response);
+        document.write(response);
     });
   }
